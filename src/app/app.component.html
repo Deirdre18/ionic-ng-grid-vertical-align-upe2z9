@@ -1,0 +1,84 @@
+<ion-app>
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Vertically Aligning Columns</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content class="ion-padding">
+    <h1>Grid with columns that are vertically aligned by row</h1>
+    <ion-grid>
+      <ion-row class="ion-align-items-start">
+        <ion-col>
+          1 of 4
+        </ion-col>
+        <ion-col>
+          2 of 4
+        </ion-col>
+        <ion-col>
+          3 of 4
+        </ion-col>
+        <ion-col>
+          4 of 4 <br />
+          Extra <br/>
+          Content
+        </ion-col>
+      </ion-row>
+
+      <ion-row class="ion-align-items-center">
+        <ion-col>
+          1 of 4
+        </ion-col>
+        <ion-col>
+          2 of 4
+        </ion-col>
+        <ion-col>
+          3 of 4
+        </ion-col>
+        <ion-col>
+          4 of 4 <br />
+          Extra <br/>
+          Content
+        </ion-col>
+      </ion-row>
+
+      <ion-row class="ion-align-items-end">
+        <ion-col>
+          1 of 4
+        </ion-col>
+        <ion-col>
+          2 of 4
+        </ion-col>
+        <ion-col>
+          3 of 4
+        </ion-col>
+        <ion-col>
+          4 of 4 <br />
+          Extra <br/>
+          Content
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+    <h1>Grid with columns that are vertically aligned individually</h1>
+    <ion-grid>
+      <ion-row>
+        <ion-col class="ion-align-self-start">
+          1 of 4
+        </ion-col>
+        <ion-col class="ion-align-self-center">
+          2 of 4
+        </ion-col>
+        <ion-col class="ion-align-self-end">
+          3 of 4
+        </ion-col>
+        <ion-col>
+          4 of 4 <br />
+          Extra <br/>
+          Content
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-content>
+
+</ion-app>
